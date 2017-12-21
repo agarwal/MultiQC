@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page_title,
+.lead,
+#analysis_dirs_wrapper,
+#mqc_header_hr,
+.side-nav > h1,
+.footer {
+  display: none !important;
+}
+
+.btn-default {
+  border: 1px solid #90959e;
+  color: #3c3f43;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms;
+  transition: border-color 200ms;
+  font-size: 12px;
+}
+
+.btn-default:hover {
+  background-color: inherit;
+  border-color: #3c3f43;
+}
+
+.modal-content {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
